@@ -826,7 +826,7 @@
   .bxl-sketch:before {
     content: "\e965";
   }
-  .bxl-skype:before {
+  .bxl-github:before {
     content: "\e966";
   }
   .bxl-slack:before {
@@ -5095,4 +5095,3 @@
   .bx-zoom-out:before {
     content: "\eef4";
   }
-  
