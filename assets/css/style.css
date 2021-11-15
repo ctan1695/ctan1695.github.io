@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 .section-bg {
@@ -523,7 +523,7 @@ section {
 }
 .about .image {
   background: url("../img/me.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: contain;
   min-height: 300px;
 }
 .about .skills-content {
