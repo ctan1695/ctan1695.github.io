@@ -41,6 +41,16 @@
   }
 
   /**
+   * Set cover photos for each portfolio item as the same image
+   */
+
+  let portfolioItems = select('.portfolio-img', true);
+
+  portfolioItems.forEach((item) => {
+    item.innerHTML = "<img src='assets/img/browser.png' class='img-fluid' alt=''>";
+    });
+
+  /**
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true)
@@ -248,18 +258,18 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+  // new Swiper('.portfolio-details-slider', {
+  //   speed: 400,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   }
+  // });
 
 })()
