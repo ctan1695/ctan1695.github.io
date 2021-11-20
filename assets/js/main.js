@@ -47,7 +47,7 @@
   let portfolioItems = select('.portfolio-img', true);
 
   portfolioItems.forEach((item) => {
-    item.innerHTML = "<img src='assets/img/trees-bg.jpg' class='img-fluid' alt=''>";
+    item.innerHTML = "<img src='assets/img/browser.png' class='img-fluid' alt=''>";
     });
 
   /**
