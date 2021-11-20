@@ -41,6 +41,16 @@
   }
 
   /**
+   * Set cover photos for each portfolio item as the same image
+   */
+
+  let portfolioItems = select('.portfolio-img', true);
+
+  portfolioItems.forEach((item) => {
+    item.innerHTML = "<img src='assets/img/trees-bg.jpg' class='img-fluid' alt=''>";
+    });
+
+  /**
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true)

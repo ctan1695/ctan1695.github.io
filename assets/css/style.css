@@ -833,6 +833,7 @@ section {
 }
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  color: black;
 }
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
@@ -880,7 +881,11 @@ section {
 .portfolio .portfolio-item:hover .portfolio-img img {
   transform: scale(1.2);
 }
-.portfolio .portfolio-item:hover .portfolio-info {
+/* .portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+} */
+
+.portfolio .portfolio-item .portfolio-info {
   opacity: 1;
 }
 
