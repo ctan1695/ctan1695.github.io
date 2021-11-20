@@ -881,6 +881,14 @@ section {
   opacity: 1;
 }
 
+.portfolio .portfolio-item .portfolio-img-other {
+  width: 80%;
+  height: auto;
+}
+
+.portfolio .portfolio-item .portfolio-info-other {
+  color: #f3a200;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
