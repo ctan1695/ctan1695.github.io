@@ -207,7 +207,7 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    select('body').style.display = 'contents';
+    select('body').style.display = 'block';
 
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
